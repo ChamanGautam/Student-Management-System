@@ -1,0 +1,93 @@
+.add-top{
+  background-color: #0af3ff3e;
+  padding-bottom: 1px;
+  min-height: 95vh;
+}
+.add-form-container {
+  max-width: 800px;
+  margin: 10px auto; /* Center the container horizontally */
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center all children horizontally */
+  box-shadow: 0px 0px 8px rgba(6, 247, 167, 0.444);
+}
+.add-form-container h1{
+  margin-bottom: 10px;
+  /* padding-bottom: 10px; */
+  border-bottom: 1px solid blue;
+  width: 100%;
+  text-align: center;
+  color: rgb(247, 6, 6);
+  font-family:cursive;
+}
+.add-form-container input {
+  width: 80%; /* Ensure full width for inputs and selects */
+  padding: 10px;
+  margin: 5px 0; /* Adjusted for better spacing */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.add-form-container select{
+  width: 83%; /* Ensure full width for inputs and selects */
+  padding: 9px;
+  margin: 5px 0; /* Adjusted for better spacing */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.add-form-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 25px;
+  margin-top: 10px; /* Ensure there's spacing above the button */
+  border-radius: 30px;
+}
+
+.add-form-container button:hover {
+  background-color: #0056b3;
+}
+
+.add-form-container select {
+  font-size: 16px;
+}
+
+.add-form-container input[readOnly] {
+  background-color: #f9f9f9;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .add-form-container {
+    padding: 15px;
+  }
+
+  .add-form-container input, 
+  .add-form-container select, 
+  .add-form-container button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .add-form-container {
+    padding: 10px;
+  }
+
+  .add-form-container input, 
+  .add-form-container select, 
+  .add-form-container button {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  .add-form-container button {
+    font-size: 14px;
+  }
+}

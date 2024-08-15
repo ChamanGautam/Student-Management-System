@@ -1,0 +1,30 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn-click {
+  margin: 5px 2px;
+  padding: 5px 3px;
+  text-align: center;
+  background-color: #f7752f;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: #fff;
+  border: none;
+  width: 40%;
+}
+.btn-click:hover{
+  background-color: #144877;
+  color: #fff;
+}

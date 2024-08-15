@@ -1,0 +1,58 @@
+/* Footer.css */
+
+.footer {
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+.footer div {
+    flex: 1;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer img {
+    height: 100px;
+}
+.logo-name span{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.footer h2 {
+    margin-bottom: 30px;
+}
+
+.footer span {
+    display: block;
+    margin: 5px 0;
+}
+
+/* Separator Line */
+.footer div:not(:last-child) {
+    border-right: 1px solid #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer div {
+        border-right: none;
+        border-bottom: 1px solid #555;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .footer div:last-child {
+        border-bottom: none;
+    }
+}

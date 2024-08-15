@@ -1,0 +1,26 @@
+[
+    {
+        "id":"1",
+        "img":"gym",
+        "title":"GYMNASIUM",
+        "desc":"Good health is the key to a successful life. Thus, keeping in view the overall wellbeing of its staff and students, the University has opened a Gymnasium and Club that provides a wide array of health and recreational facilities under one roof."
+    },
+    {
+        "id":"2",
+        "img":"hostel",
+        "title":"HOSTEL",
+        "desc":"The University is fast expanding both in terms of facilities and students enrolled. The University has separate boys' and girls' hostels that provide convenient accommodation to the students with in house mess facility."
+    },
+    {
+        "id":"3",
+        "img":"guest",
+        "title":"GUEST HOUSE",
+        "desc":"Besides academic engagements, extra-curricular activities are regular phenomenon at this university wherein guests from across the country and abroad keep taking part."
+    },
+    {
+        "id":"4",
+        "img":"lib",
+        "title":"E LIBRARY",
+        "desc":"The University provides free e-content to students, researchers and faculty members through its subscribed e-resources. Also, the University has its own library portal developed by Knimbus."
+    }
+]

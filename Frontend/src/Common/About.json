@@ -1,0 +1,38 @@
+[
+    {
+        "id":1 ,
+        "img":"https://www.pngitem.com/pimgs/m/236-2366651_transparent-student-icon-png-transparent-student-png-icon.png",
+        "title":"Student Management System",
+        "desc":"Schools and Universities are the foundation of knowledge and an educational body on which students rely upon. Therefore, they need to maintain a proper database of its students to keep all the updated records and easily share information with students. Most schools and Universities count on an advanced software tool knows as 'Student Information System (SIS)' to keep all their student records and administrative operations including, examinations, attendance, and other activities."
+    },
+    {
+        "id":2 ,
+        "img":"https://4.bp.blogspot.com/-fDScWpSMCmM/WPXmuj06VGI/AAAAAAAAAp8/KOvM-LIN24MSRk70NlQL0zT8HPd495kqQCLcB/s1600/tech.png",
+        "title":"Technology Used in this System",
+        "desc":"In the STUDENT MANAGEMENT SYSTEM we use MERN Technology. MERN Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications. MERN Stack comprises of 4 technologies namely: MongoDB, Express React and Node.js. It is designed to make the development process smoother and easier Each of these 4 powerful technologies provides an end-to-end framework for the developers to work in and each of these technologies play a big part in the development of web applications."
+    },
+    {
+        "id":3 ,
+        "img":"https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+        "title":"About React.JS",
+        "desc":"React JS is JavaScript library used for building reusable UI components. According to React official documentation, following is the definition React is a library for building composable user interfaces. It encourages the creation of reusable UI components, which present data that changes over time. Lots of people use React as the V in MVC. React abstracts away the DOM from you, offering a simpler programming model and better performance. React can also render on the server using Node, and it can power native apps using React Native. React implements one-way reactive data flow, which reduces the boilerplate and is easier to reason about than traditional data binding."
+    },
+    {
+        "id":4 ,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+        "title":"About Express.JS",
+        "desc":"Express.js is a small framework that works on top of Node.js web server functionality to simplify its APIs and add helpful new features. It makes it easier to organize your application’s functionality with middleware and routing. It adds helpful utilities to Node.js HTTP objects and facilitates the rendering of dynamic HTTP objects."
+    },
+    {
+        "id":5 ,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png",
+        "title":"About Node.JS",
+        "desc":"Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux. Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent."
+    },
+    {
+        "id":6 ,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/2560px-MongoDB_Logo.svg.png",
+        "title":"About MongoDB",
+        "desc":"MongoDB is an open-source document-oriented database that is designed to store a large scale of data and also allows you to work with that data very efficiently. It is categorized under the NoSQL (Not only SQL) database because the storage and retrieval of data in the MongoDB are not in the form of tables.The MongoDB database is developed and managed by MongoDB.Inc under SSPL(Server Side Public License) and initially released in February 2009. It also provides official driver support for all the popular languages like C, C++, C#, and .Net, Go, Java, Node.js, Perl, PHP, Python, Motor, Ruby, Scala, Swift, Mongoid. So, that you can create an application using any of these languages. Nowadays there are so many companies that used MongoDB like Facebook, Nokia, eBay, Adobe, Google, etc. to store their large amount of data. "
+    }
+]

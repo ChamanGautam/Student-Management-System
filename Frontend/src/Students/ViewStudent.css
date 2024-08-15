@@ -1,0 +1,164 @@
+/* ViewStudent.css */
+
+/* Base styles */
+.view-base {
+    padding: 20px;
+  }
+  
+  .view-main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .view-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .view-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .view-table th, .view-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .view-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .view-search {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .viewbtn, .delbtn ,.udbtn {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0px 5px;
+    max-width: 90px;
+  }
+  .btn-sec{
+    background-color: #29ffff;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-sec:hover{
+    background-color: #a6d0fe;
+  }
+  .btn-sec a{
+    text-decoration: none;
+  }
+  .viewbtn {
+    background-color: #007bff;
+  }
+  
+  .viewbtn:hover {
+    background-color: #0056b3;
+  }
+  
+  .udbtn {
+    background-color: #28a745;
+  }
+  
+  .udbtn:hover {
+    background-color: #218838;
+  }
+  
+  .delbtn {
+    background-color: #dc3545;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delbtn:hover {
+    background-color: #c82333;
+  }
+  
+  .leftfee1 {
+    color: #dc3545;
+  }
+  
+  .leftfee0 {
+    color: #28a745;
+  }
+  
+  .bi {
+    margin-right: 5px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .view-heading {
+      font-size: 20px;
+    }
+  
+    .view-table th, .view-table td {
+      padding: 10px;
+      max-width: 150px;
+      min-width: 50px;
+      overflow: hidden;
+      text-align: center;
+    }
+  
+    .view-search {
+      padding: 8px;
+    }
+  
+    .viewbtn, .udbtn, .delbtn {
+      padding: 6px 10px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .view-heading {
+      font-size: 18px;
+    }
+  
+    .view-table th, .view-table td {
+      padding: 8px;
+    }
+  
+    .view-search {
+      padding: 6px;
+    }
+  
+    .viewbtn, .udbtn, .delbtn {
+      padding: 4px 8px;
+      font-size: 12px;
+    }
+  
+    .view-table {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .view-table {
+      font-size: 12px;
+    }
+  
+    .viewbtn, .udbtn, .delbtn {
+      padding: 2px 6px;
+      font-size: 10px;
+    }
+  
+    .view-search {
+      padding: 4px;
+    }
+  }
+  
